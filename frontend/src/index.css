@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+  
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-xl;
+  }
+}
